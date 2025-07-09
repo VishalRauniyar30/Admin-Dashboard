@@ -17,7 +17,7 @@ import routerBindings, {
   UnsavedChangesNotifier,
 } from "@refinedev/react-router"
 import { App as AntdApp } from "antd"
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Outlet, Route, Routes } from "react-router"
 import Layout from "./components/layout"
 import { resources } from "./config/resources"
 

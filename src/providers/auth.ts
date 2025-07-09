@@ -1,13 +1,12 @@
-import { AuthBindings } from '@refinedev/core'
-
+import { AuthProvider } from '@refinedev/core'
 import { API_URL, dataProvider } from './data'
 
 export const authCredentials = {
-    email: "michael.scott@dundermifflin.com",
-    password: "demodemo",
+    email: "vishalkgupta9966@gmail.com",
+    password: "123123123",
 }
 
-export const authProvider: AuthBindings = {
+export const authProvider: AuthProvider = {
     login: async ({ email }) => {
         try {
             const { data } = await dataProvider.custom({
